@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "6.0.0.3",
+    "entityType" : "AuthTree",
+    "entityId" : "Google-DynamicAccountCreation",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Google-DynamicAccountCreation",
+    "entryNodeId" : "9da1f1c7-afeb-4c85-b305-87eb24162cc9",
+    "nodes" : {
+      "9da1f1c7-afeb-4c85-b305-87eb24162cc9" : {
+        "nodeType" : "SocialGoogleNode",
+        "displayName" : "Google Social Authentication",
+        "connections" : {
+          "NO_ACCOUNT" : "96dbc250-bd10-4b1e-8e8f-4ece5e15b17c",
+          "ACCOUNT_EXISTS" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "96dbc250-bd10-4b1e-8e8f-4ece5e15b17c" : {
+        "nodeType" : "OneTimePasswordGeneratorNode",
+        "displayName" : "HOTP Generator",
+        "connections" : {
+          "outcome" : "ac0965dc-58b9-4505-932a-e16d335d3b23"
+        }
+      },
+      "ac0965dc-58b9-4505-932a-e16d335d3b23" : {
+        "nodeType" : "OneTimePasswordSmtpSenderNode",
+        "displayName" : "OTP Email Sender",
+        "connections" : {
+          "outcome" : "aa4c438d-9b74-4568-92b3-362e0c69243e"
+        }
+      },
+      "aa4c438d-9b74-4568-92b3-362e0c69243e" : {
+        "nodeType" : "OneTimePasswordCollectorDecisionNode",
+        "displayName" : "OTP Collector Decision",
+        "connections" : {
+          "true" : "69a0b455-7a19-4569-afe4-f68bca2e6d25",
+          "false" : "8aa8196f-0441-42c7-bd17-5d9c0a8deb09"
+        }
+      },
+      "2f58a45b-70e8-44f2-bc34-b22f0132d5ed" : {
+        "nodeType" : "ProvisionDynamicAccountNode",
+        "displayName" : "Provision Dynamic Account",
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "69a0b455-7a19-4569-afe4-f68bca2e6d25" : {
+        "nodeType" : "CreatePasswordNode",
+        "displayName" : "Create Password",
+        "connections" : {
+          "outcome" : "2f58a45b-70e8-44f2-bc34-b22f0132d5ed"
+        }
+      },
+      "8aa8196f-0441-42c7-bd17-5d9c0a8deb09" : {
+        "nodeType" : "RetryLimitDecisionNode",
+        "displayName" : "Retry Limit Decision",
+        "connections" : {
+          "Reject" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "Retry" : "aa4c438d-9b74-4568-92b3-362e0c69243e"
+        }
+      }
+    }
+  }
+}
