@@ -15,11 +15,11 @@
       "msisdnUserNamingAttribute" : "uid",
       "ldapSslEnabled" : false,
       "msisdnRequestSearchLocations" : [ "searchRequest", "searchParam", "searchCookie" ],
-      "ldapProviderUrl" : [ "localhost:50389" ],
+      "ldapProviderUrl" : [ "192.168.99.1:1389" ],
       "msisdnParameterNames" : [ ],
       "ldapUserBindPassword" : null,
       "trustedGatewayIPAddresses" : [ ],
-      "baseSearchDN" : [ "dc=openam,dc=forgerock,dc=org" ],
+      "baseSearchDN" : [ "dc=forgerock,dc=org" ],
       "returnUserDN" : true
     },
     "_type" : {

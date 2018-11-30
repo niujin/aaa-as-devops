@@ -21,11 +21,11 @@
       "beheraPasswordPolicySupportEnabled" : true,
       "userProfileRetrievalAttribute" : "uid",
       "minimumPasswordLength" : "8",
-      "primaryLdapServer" : [ "localhost:50389" ],
+      "primaryLdapServer" : [ "192.168.99.1:1389" ],
       "openam-auth-ldap-connection-mode" : "LDAP",
       "connectionHeartbeatInterval" : 10,
       "secondaryLdapServer" : [ ],
-      "userSearchStartDN" : [ "dc=openam,dc=forgerock,dc=org" ],
+      "userSearchStartDN" : [ "dc=forgerock,dc=org" ],
       "trustAllServerCertificates" : false,
       "operationTimeout" : 0
     },

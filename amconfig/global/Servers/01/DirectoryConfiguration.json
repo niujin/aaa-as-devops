@@ -17,10 +17,10 @@
       "bindPassword" : null
     },
     "directoryServers" : [ {
-      "hostName" : "localhost",
+      "hostName" : "192.168.99.1",
       "serverName" : "Server1",
       "connectionType" : "SIMPLE",
-      "portNumber" : "50389"
+      "portNumber" : "1389"
     } ]
   }
 }

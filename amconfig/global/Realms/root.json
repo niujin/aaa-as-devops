@@ -11,6 +11,6 @@
     "parentPath" : null,
     "active" : true,
     "name" : "/",
-    "aliases" : [ "openam", "myopenam" ]
+    "aliases" : [ "myopenam", "forgerock" ]
   }
 }
