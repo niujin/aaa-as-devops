@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "PersistentCookieModule",
     "entityId" : "PersistentCookieModule",
     "pathParams" : { }
@@ -10,12 +10,11 @@
     "_id" : "",
     "defaults" : {
       "idleTimeout" : 5,
+      "useHttpOnlyCookie" : true,
       "maxLife" : 5,
       "useSecureCookie" : true,
-      "enforceClientIP" : false,
-      "useHttpOnlyCookie" : true,
       "cookieName" : "session-jwt",
-      "hmacKey" : null
+      "enforceClientIP" : false
     },
     "_type" : {
       "_id" : "persistentcookie",

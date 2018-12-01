@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "AuthenticatorPush",
     "entityId" : "AuthenticatorPush",
     "pathParams" : { }
@@ -9,13 +9,11 @@
   "data" : {
     "_id" : "",
     "defaults" : {
-      "authenticatorPushDeviceSettingsEncryptionKeystoreKeyPairAlias" : null,
       "authenticatorPushDeviceSettingsEncryptionKeystore" : "/home/forgerock/openam/openam/keystore.jks",
       "authenticatorPushDeviceSettingsEncryptionKeystorePassword" : null,
-      "authenticatorPushDeviceSettingsEncryptionKeystorePrivateKeyPassword" : null,
       "pushAttrName" : "pushDeviceProfiles",
       "authenticatorPushDeviceSettingsEncryptionKeystoreType" : "JKS",
-      "authenticatorPushSkippableName" : "oath2faEnabled",
+      "authenticatorPushSkippableName" : "push2faEnabled",
       "authenticatorPushDeviceSettingsEncryptionScheme" : "NONE"
     },
     "_type" : {

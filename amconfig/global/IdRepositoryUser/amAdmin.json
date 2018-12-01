@@ -1,28 +1,21 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "IdRepositoryUser",
     "entityId" : "amAdmin",
     "pathParams" : { }
   },
   "data" : {
     "_id" : "amAdmin",
-    "sunIdentityMSISDNNumber" : null,
     "userPassword" : null,
-    "telephoneNumber" : null,
-    "mail" : null,
-    "iplanet-am-user-alias-list" : null,
     "givenName" : "amAdmin",
     "roles" : [ ],
     "dn" : "uid=amAdmin,ou=people,",
     "cn" : "amAdmin",
-    "employeeNumber" : null,
-    "postalAddress" : null,
-    "iplanet-am-user-success-url" : null,
     "inetUserStatus" : "Active",
     "sn" : "amAdmin",
-    "iplanet-am-user-failure-url" : null,
+    "iplanet-am-user-auth-config" : "[Empty]",
     "_type" : {
       "_id" : "user",
       "name" : "User",

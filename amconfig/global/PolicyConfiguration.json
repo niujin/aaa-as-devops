@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "PolicyConfiguration",
     "entityId" : "PolicyConfiguration",
     "pathParams" : { }
@@ -24,7 +24,6 @@
       "subjectsResultTTL" : 10,
       "sslEnabled" : false,
       "usersBaseDn" : "dc=forgerock,dc=org",
-      "bindPassword" : null,
       "connectionPoolMaximumSize" : 10,
       "policyHeartbeatTimeUnit" : "SECONDS",
       "realmSearchFilter" : "(objectclass=sunismanagedorganization)",

@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "Authentication",
     "entityId" : "Authentication",
     "pathParams" : { }
@@ -17,14 +17,10 @@
     "defaults" : {
       "accountlockout" : {
         "lockoutDuration" : 0,
-        "lockoutEmailAddress" : null,
         "loginFailureLockoutMode" : false,
         "lockoutDurationMultiplier" : 1,
         "lockoutWarnUserCount" : 0,
-        "lockoutAttributeValue" : null,
-        "lockoutAttributeName" : null,
         "loginFailureCount" : 5,
-        "invalidAttemptsDataAttributeName" : null,
         "loginFailureDuration" : 300,
         "storeInvalidAttemptsInDataStore" : true
       },

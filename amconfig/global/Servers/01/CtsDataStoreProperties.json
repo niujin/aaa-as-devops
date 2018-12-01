@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "CtsDataStoreProperties",
     "entityId" : "http://myopenam:8080/openam",
     "pathParams" : {
@@ -21,6 +21,14 @@
       },
       "org.forgerock.services.cts.store.max.connections" : {
         "value" : "10",
+        "inherited" : true
+      },
+      "org.forgerock.services.cts.store.page.size" : {
+        "value" : "0",
+        "inherited" : true
+      },
+      "org.forgerock.services.cts.store.vlv.page.size" : {
+        "value" : "1000",
         "inherited" : true
       }
     },

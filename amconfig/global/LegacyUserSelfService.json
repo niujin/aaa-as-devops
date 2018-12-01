@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "LegacyUserSelfService",
     "entityId" : "LegacyUserSelfService",
     "pathParams" : { }
@@ -17,7 +17,8 @@
       "selfRegistrationTokenLifetime" : 900,
       "forgotPasswordConfirmationUrl" : "http://myopenam:8080/openam/XUI/confirm.html",
       "userRegisteredDestination" : "default",
-      "protectedUserAttributes" : [ ]
+      "protectedUserAttributes" : [ ],
+      "confirmationIdHmacKey" : "8B3md0GSRaB9fprwNKey4ITqwfFFypXdMGgmHetVxHA="
     },
     "_type" : {
       "_id" : "security",

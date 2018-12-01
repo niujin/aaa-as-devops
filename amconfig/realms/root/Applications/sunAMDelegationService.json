@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : "/",
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "Applications",
     "entityId" : "sunAMDelegationService",
     "pathParams" : { }
@@ -14,16 +14,16 @@
     "createdBy" : "id=dsameuser,ou=user,dc=forgerock,dc=org",
     "conditions" : [ ],
     "resourceTypeUuids" : [ "20a13582-1f32-4f83-905f-f71ff4e2e00d" ],
-    "applicationType" : "sunAMDelegationService",
+    "editable" : true,
+    "resourceComparator" : null,
+    "creationDate" : 1543636681908,
+    "lastModifiedDate" : 1543636681908,
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=forgerock,dc=org",
     "subjects" : [ "NOT", "OR", "AuthenticatedUsers", "AND", "Identity" ],
     "saveIndex" : null,
     "searchIndex" : null,
-    "resourceComparator" : null,
-    "editable" : true,
     "entitlementCombiner" : "DenyOverride",
-    "creationDate" : 1543542322228,
-    "lastModifiedBy" : "id=dsameuser,ou=user,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1543542322228,
+    "applicationType" : "sunAMDelegationService",
     "name" : "sunAMDelegationService"
   }
 }

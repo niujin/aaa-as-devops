@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.0.0.3",
+    "amsterVersion" : "6.5.0",
     "entityType" : "SocialAuthWeChatMobileModule",
     "entityId" : "SocialAuthWeChatMobileModule",
     "pathParams" : { }
@@ -10,11 +10,8 @@
     "_id" : "",
     "defaults" : {
       "emailSettings" : {
-        "smtpFromAddress" : null,
         "emailGateway" : "org.forgerock.openam.authentication.modules.oauth2.DefaultEmailGatewayImpl",
-        "smtpSslEnabled" : null,
         "smtpPort" : "25",
-        "smtpPassword" : null,
         "smtpUsername" : "",
         "smtpHost" : "localhost",
         "emailAttribute" : ""
