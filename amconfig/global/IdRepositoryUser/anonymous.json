@@ -9,8 +9,8 @@
   "data" : {
     "_id" : "anonymous",
     "userPassword" : null,
-    "roles" : [ ],
     "givenName" : "anonymous",
+    "roles" : [ ],
     "dn" : "uid=anonymous,ou=people,",
     "cn" : "anonymous",
     "inetUserStatus" : "Active",

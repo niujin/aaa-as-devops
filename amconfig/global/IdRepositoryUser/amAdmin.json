@@ -9,8 +9,8 @@
   "data" : {
     "_id" : "amAdmin",
     "userPassword" : null,
-    "roles" : [ ],
     "givenName" : "amAdmin",
+    "roles" : [ ],
     "dn" : "uid=amAdmin,ou=people,",
     "cn" : "amAdmin",
     "inetUserStatus" : "Active",

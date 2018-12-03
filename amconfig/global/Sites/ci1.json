@@ -1,0 +1,15 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "6.5.0",
+    "entityType" : "Sites",
+    "entityId" : "ci1",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "ci1",
+    "id" : "02",
+    "url" : "https://internal-openam6-lb-1491563454.us-east-1.elb.amazonaws.com/openam",
+    "secondaryURLs" : [ ]
+  }
+}

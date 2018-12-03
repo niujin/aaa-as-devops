@@ -11,7 +11,7 @@
   "data" : {
     "_id" : "01/properties/general",
     "amconfig.header.site" : {
-      "singleChoiceSite" : "[Empty]"
+      "singleChoiceSite" : "ci1"
     },
     "amconfig.header.installdir" : {
       "com.iplanet.services.configpath" : {

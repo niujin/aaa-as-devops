@@ -9,6 +9,6 @@
   "data" : {
     "_id" : "01",
     "url" : "http://myopenam:8080/openam",
-    "siteName" : null
+    "siteName" : "ci1"
   }
 }
