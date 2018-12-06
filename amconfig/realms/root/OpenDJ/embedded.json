@@ -43,7 +43,7 @@
       "sun-idrepo-ldapv3-config-search-scope" : "SCOPE_SUB",
       "sun-idrepo-ldapv3-config-time-limit" : 10,
       "openam-idrepo-ldapv3-heartbeat-interval" : 10,
-      "sun-idrepo-ldapv3-config-ldap-server" : [ "192.168.99.1:1389" ],
+      "sun-idrepo-ldapv3-config-ldap-server" : [ "ip-10-0-165-58.ec2.internal:1389" ],
       "openam-idrepo-ldapv3-heartbeat-timeunit" : "SECONDS",
       "sun-idrepo-ldapv3-config-organization_name" : "dc=forgerock,dc=org",
       "sun-idrepo-ldapv3-config-connection-mode" : "LDAP",

@@ -18,7 +18,7 @@
       "forgotPasswordConfirmationUrl" : "http://openam.refinitiv.com:8080/openam/XUI/confirm.html",
       "userRegisteredDestination" : "default",
       "protectedUserAttributes" : [ ],
-      "confirmationIdHmacKey" : "SdVWBaBlFa9gspj57g/gV7EVCd0jU1tQOJMi8Ls0A14="
+      "confirmationIdHmacKey" : "NSVHejOzEEERU2wWdGe/KR/TbJZTuTQ0ukfLzPD1TOs="
     },
     "_type" : {
       "_id" : "security",

@@ -17,7 +17,7 @@
       "bindPassword" : null
     },
     "directoryServers" : [ {
-      "hostName" : "192.168.99.1",
+      "hostName" : "ip-10-0-165-58.ec2.internal",
       "serverName" : "Server1",
       "connectionType" : "SIMPLE",
       "portNumber" : "1389"

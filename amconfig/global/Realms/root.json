@@ -11,6 +11,6 @@
     "parentPath" : null,
     "active" : true,
     "name" : "/",
-    "aliases" : [ "forgerock", "openam.refinitiv.com" ]
+    "aliases" : [ "internal-openam-lb-instance-244628063.us-east-1.elb.amazonaws.com", "forgerock", "openam.refinitiv.com" ]
   }
 }

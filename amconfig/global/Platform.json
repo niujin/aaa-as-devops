@@ -8,7 +8,7 @@
   },
   "data" : {
     "_id" : "",
-    "cookieDomains" : [ "refinitiv.com" ],
+    "cookieDomains" : [ "internal-openam-lb-instance-244628063.us-east-1.elb.amazonaws.com" ],
     "locale" : "en_US",
     "_type" : {
       "_id" : "platform",

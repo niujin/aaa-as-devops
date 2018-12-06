@@ -9,7 +9,7 @@
   "data" : {
     "_id" : "ci1",
     "id" : "02",
-    "url" : "http://openam.refinitiv.com:8080/openam",
+    "url" : "http://internal-openam-lb-instance-244628063.us-east-1.elb.amazonaws.com/openam",
     "secondaryURLs" : [ ]
   }
 }
