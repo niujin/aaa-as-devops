@@ -13,7 +13,7 @@
         "usesBasicAuth" : true,
         "logoutBehaviour" : "prompt",
         "scope" : [ ],
-        "ssoProxyUrl" : "http://myopenam:8080/openam/oauth2c/OAuthProxy.jsp",
+        "ssoProxyUrl" : "http://openam.refinitiv.com:8080/openam/oauth2c/OAuthProxy.jsp",
         "logoutServiceUrl" : "",
         "authenticationLevel" : 0,
         "mixUpMitigation" : false

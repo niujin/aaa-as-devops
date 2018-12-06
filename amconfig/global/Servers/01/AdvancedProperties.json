@@ -3,9 +3,9 @@
     "realm" : null,
     "amsterVersion" : "6.5.0",
     "entityType" : "AdvancedProperties",
-    "entityId" : "http://myopenam:8080/openam",
+    "entityId" : "http://openam.refinitiv.com:8080/openam",
     "pathParams" : {
-      "serverName" : "http://myopenam:8080/openam"
+      "serverName" : "http://openam.refinitiv.com:8080/openam"
     }
   },
   "data" : {

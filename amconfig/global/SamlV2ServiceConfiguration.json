@@ -12,7 +12,7 @@
     "encryptedKeyInKeyInfo" : true,
     "cacheCleanupInterval" : 600,
     "nameIDInfoAttribute" : "sun-fm-saml2-nameid-info",
-    "idpDiscoveryCookieDomain" : "",
+    "idpDiscoveryCookieDomain" : "refinitiv.com",
     "idpDiscoveryUrlSchema" : "https",
     "signingCertValidation" : false,
     "caCertValidation" : false,

@@ -11,14 +11,14 @@
     "defaults" : {
       "forgotPasswordTokenLifetime" : 900,
       "selfServiceEnabled" : false,
-      "selfRegistrationConfirmationUrl" : "http://myopenam:8080/openam/XUI/confirm.html",
+      "selfRegistrationConfirmationUrl" : "http://openam.refinitiv.com:8080/openam/XUI/confirm.html",
       "forgotPasswordEnabled" : false,
       "selfRegistrationEnabled" : false,
       "selfRegistrationTokenLifetime" : 900,
-      "forgotPasswordConfirmationUrl" : "http://myopenam:8080/openam/XUI/confirm.html",
+      "forgotPasswordConfirmationUrl" : "http://openam.refinitiv.com:8080/openam/XUI/confirm.html",
       "userRegisteredDestination" : "default",
       "protectedUserAttributes" : [ ],
-      "confirmationIdHmacKey" : "8Z8Jz7d573Me8e6eECtKhbQVxYgWa+QxBr0WMi8BHcg="
+      "confirmationIdHmacKey" : "SdVWBaBlFa9gspj57g/gV7EVCd0jU1tQOJMi8Ls0A14="
     },
     "_type" : {
       "_id" : "security",

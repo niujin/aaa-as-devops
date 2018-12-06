@@ -15,7 +15,7 @@
         "subjectProperty" : "openid",
         "provider" : "WeChat",
         "scope" : [ "snsapi_login" ],
-        "ssoProxyUrl" : "http://myopenam:8080/openam/oauth2c/OAuthProxy.jsp",
+        "ssoProxyUrl" : "http://openam.refinitiv.com:8080/openam/oauth2c/OAuthProxy.jsp",
         "userInfoEndpoint" : "https://api.wechat.com/sns/userinfo",
         "authorizeEndpoint" : "https://open.weixin.qq.com/connect/qrconnect",
         "authenticationLevel" : 0

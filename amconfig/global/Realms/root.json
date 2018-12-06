@@ -11,6 +11,6 @@
     "parentPath" : null,
     "active" : true,
     "name" : "/",
-    "aliases" : [ "myopenam", "internal-openam6-lb-1491563454.us-east-1.elb.amazonaws.com", "forgerock" ]
+    "aliases" : [ "forgerock", "openam.refinitiv.com" ]
   }
 }
