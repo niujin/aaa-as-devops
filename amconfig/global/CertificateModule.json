@@ -13,7 +13,7 @@
       "certificateAttributeProfileMappingExtension" : "none",
       "matchCertificateToCRL" : false,
       "crlMatchingCertificateAttribute" : "CN",
-      "certificateLdapServers" : [ "ip-10-0-165-58.ec2.internal:1389" ],
+      "certificateLdapServers" : [ "ip-10-0-146-38.ec2.internal:1389" ],
       "ldapCertificateAttribute" : "CN",
       "updateCRLsFromDistributionPoint" : true,
       "cacheCRLsInMemory" : true,

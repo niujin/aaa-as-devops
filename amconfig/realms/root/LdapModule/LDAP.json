@@ -19,7 +19,7 @@
     "beheraPasswordPolicySupportEnabled" : true,
     "userProfileRetrievalAttribute" : "uid",
     "minimumPasswordLength" : "8",
-    "primaryLdapServer" : [ "ip-10-0-165-58.ec2.internal:1389" ],
+    "primaryLdapServer" : [ "ip-10-0-146-38.ec2.internal:1389" ],
     "openam-auth-ldap-connection-mode" : "LDAP",
     "connectionHeartbeatInterval" : 10,
     "secondaryLdapServer" : [ ],
