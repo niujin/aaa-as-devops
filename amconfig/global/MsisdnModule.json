@@ -15,7 +15,7 @@
       "msisdnUserNamingAttribute" : "uid",
       "ldapSslEnabled" : false,
       "msisdnRequestSearchLocations" : [ "searchRequest", "searchParam", "searchCookie" ],
-      "ldapProviderUrl" : [ "ip-10-0-146-38.ec2.internal:1389" ],
+      "ldapProviderUrl" : [ "ip-10-0-132-107.ec2.internal:1389" ],
       "msisdnParameterNames" : [ ],
       "trustedGatewayIPAddresses" : [ ],
       "baseSearchDN" : [ "dc=forgerock,dc=org" ],

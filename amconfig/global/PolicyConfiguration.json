@@ -14,7 +14,7 @@
     "defaults" : {
       "policyHeartbeatInterval" : 10,
       "bindDn" : "cn=Directory Manager",
-      "ldapServer" : [ "ip-10-0-146-38.ec2.internal:1389" ],
+      "ldapServer" : [ "ip-10-0-132-107.ec2.internal:1389" ],
       "connectionPoolMinimumSize" : 1,
       "usersSearchAttribute" : "uid",
       "userAliasEnabled" : false,
